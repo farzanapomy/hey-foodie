@@ -42,7 +42,7 @@ section{
     text-decoration: none;
     color: white;
     font-weight: 600;
-    padding: 25px 45px;
+    padding: 22px 45px;
     border-radius: 35px;
     background-image: linear-gradient(orange ,magenta);
 }
@@ -50,6 +50,12 @@ section{
     padding-top: 50px;
     background-image: url(images/bg2.jpg);
     background-repeat: no-repeat;
-   
+}
+.div-recipes {
+    
+    text-align: center;
+}
+.recipes-section{
+
 }
 
