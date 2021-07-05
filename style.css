@@ -52,12 +52,38 @@ section{
     background-repeat: no-repeat;
 }
 .div-recipes {
-    
+   align-items: center;
+}
+
+.recipes-section{
+    text-align: center;
+    padding-left: 5%;
+}
+.recipes-section h2{
+    font-size: 30px;
+}
+.recipes-section p{
+    font-size: 20px;
+}
+.div-border{
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 50px;
+    align-items: center; 
+    box-shadow: 10px 10px gray; 
+}
+.div-recipes h2{
     text-align: center;
 }
-.recipes-section{
-
+.div-border p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
+
+
 footer{
     background-image: url(images/R.jpg);
     color: white;
