@@ -58,4 +58,11 @@ section{
 .recipes-section{
 
 }
+footer{
+    background-image: url(images/R.jpg);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+
+}
 
