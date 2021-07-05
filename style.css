@@ -1,6 +1,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    margin: 0px;}
+
+}
 h1{
     font-size: 80px;
 }
@@ -22,6 +23,7 @@ section{
    
 }
 .web-intro{
+    padding-top: 50px;
     width: 50%;
     font-weight: 100px;
     padding-left: 5%;
@@ -29,7 +31,12 @@ section{
     color: rgba(128, 128, 128, 0.966);
 }
 .web-intro img{  
-     width: 100%;
+     width: 110%;
+}
+.web-intro p{
+    
+    padding-bottom: 20px;
+    font-size: 25px;
 }
 .link-button{
     text-decoration: none;
@@ -39,3 +46,10 @@ section{
     border-radius: 35px;
     background-image: linear-gradient(orange ,magenta);
 }
+.about-section{
+    padding-top: 50px;
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+   
+}
+
