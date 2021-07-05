@@ -72,15 +72,18 @@ section{
     margin-right: 2%;
     padding: 50px;
     align-items: center; 
-    box-shadow: 10px 10px gray; 
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.459); 
 }
-.div-recipes h2{
+.div-border h2{
     text-align: center;
 }
 .div-border p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: center;
+}
+.div-border img{
+    border-radius: 25px;
 }
 
 
