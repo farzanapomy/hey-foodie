@@ -49,6 +49,7 @@ section{
     border-radius: 35px;
     background-image: linear-gradient(orange ,magenta);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 20px gray;
 }
 
 .about-section{
@@ -79,7 +80,7 @@ section{
     border-radius: 20px;
     margin: 15px;
     padding: 25px;
-    box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.459); 
+    box-shadow: 5px 5px 35px rgba(128, 128, 128, 0.459); 
 }
 
 .div-border h2{
@@ -111,8 +112,6 @@ section{
     background-image: linear-gradient(orange, magenta);  
     border-radius: 5px;
 }
-
-
 
 footer{
     background-image: url(images/R.jpg);
