@@ -58,13 +58,14 @@ section{
     background-repeat: no-repeat;
 }
 
-.recipes-section{
-    text-align: center; 
-}
-
 .three-div{
     margin-left: 7%;
     margin-right: 5%;
+}
+
+
+.recipes-section{
+    text-align: center; 
 }
 
 .recipes-section h2{
