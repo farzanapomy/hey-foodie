@@ -1,12 +1,13 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-
+    margin: 0px;
 }
 h1{
     font-size: 80px;
 }
 h2{
     font-size: 20px;
+    font-family:sans-serif;
    
 }
 h3{
@@ -16,22 +17,24 @@ h3{
 .orange-color{
     color: orange;
 }
+
 section{
-   height: 500px;
+   
    padding-bottom: 150px;
     display: flex;
    
 }
 .web-intro{
     padding-top: 50px;
-    width: 50%;
+    width: 55%;
     font-weight: 100px;
     padding-left: 5%;
     padding-right: 5%;
     color: rgba(128, 128, 128, 0.966);
 }
 .web-intro img{  
-     width: 110%;
+     width: 100%;
+     
 }
 .web-intro p{
     
@@ -45,47 +48,73 @@ section{
     padding: 22px 45px;
     border-radius: 35px;
     background-image: linear-gradient(orange ,magenta);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .about-section{
-    padding-top: 50px;
+    margin-top: 80px;
+    padding-top: 35px;
     background-image: url(images/bg2.jpg);
     background-repeat: no-repeat;
 }
 .div-recipes {
    align-items: center;
+   font-weight: 700;
 }
 
 .recipes-section{
     text-align: center;
-    padding-left: 5%;
+    
+    
+}
+.three-div{
+    margin-left: 7%;
+    margin-right: 5%;
 }
 .recipes-section h2{
-    font-size: 30px;
+    
+    font-size: 40px;
+    font-family: Verdana;
 }
 .recipes-section p{
-    font-size: 20px;
+    font-size: 25px;
 }
 .div-border{
-    border: 2px solid gray;
-    border-radius: 25px;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 50px;
+    border: 1px darkgrey ;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px;
     align-items: center; 
-    box-shadow: 10px 10px rgba(128, 128, 128, 0.459); 
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.459); 
 }
 .div-border h2{
     text-align: center;
+    
 }
 .div-border p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     font-size: 20px;
     text-align: center;
 }
 .div-border img{
-    border-radius: 25px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+    
 }
-
+.input-area{
+    
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.input-area h2{
+    text-align: center;
+}
+#submit-button{
+    padding: 5px;
+    background-image: linear-gradient(orange, magenta);
+    
+    border-radius: 5px;
+}
 
 footer{
     background-image: url(images/R.jpg);
