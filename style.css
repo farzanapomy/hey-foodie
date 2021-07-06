@@ -117,6 +117,9 @@ section{
     background-image: linear-gradient(orange, magenta);  
     border-radius: 5px;
 }
+.table-border{
+    border-color: black;
+}
 
 footer{
     background-image: url(images/R.jpg);
