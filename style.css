@@ -1,6 +1,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     margin: 0px;
+    background-color: rgba(216, 210, 210, 0.281);
 }
 h1{
     font-size: 80px;
@@ -102,8 +103,7 @@ section{
 }
 .input-area{
     color: orange;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin: 50px;
 }
 .input-area h2{
     font-size: 30px;
